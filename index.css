@@ -1,0 +1,56 @@
+        * { /*seletor universal que ajusta todos os elementos da pagina*/
+            padding: 2px;
+            font-family: cursive;
+        }
+        footer {
+            background-color: rosybrown;
+            color: black;
+            text-align: center; /* centraliza o texto*/
+        }
+        header { 
+            padding: 16px;
+            background-color: #bc8f8f;
+            color: white;
+            display: flex;
+            justify-content:center;/* alinha elementos no centro da pagina*/
+            text-align: center;
+            gap: 160px; /*da um espaçamento entre as palavras*/
+        }
+        #nome {
+            color:darkred;
+        }
+        section {
+            background-color: bisque;
+        }
+        .link {
+            text-decoration: none; /* tira o sublinhado do link*/
+            color: rgba(228, 18, 18, 0.795);
+        }
+        h2 {
+            color: rgba(228, 18, 18, 0.795) ;
+        }
+        .container { 
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            line-height: 15px;
+
+        }
+        .inicio {
+            display: flex;
+            align-items: center;
+        }
+        .eu {
+            margin-left: 180px;
+            margin-right: 50px;
+            border-radius: 25%;
+        }
+        a:hover {
+            color: white;
+        }
+
+        
+
+    
+
+        
