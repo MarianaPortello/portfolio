@@ -1,6 +1,6 @@
-        * { /*seletor universal que ajusta todos os elementos da pagina*/
+ * { /*seletor universal que ajusta todos os elementos da pagina*/
             padding: 2px;
-            font-family: cursive;
+            font-family: cursive; /*fonte do texto*/
         }
         footer {
             background-color: rosybrown;
@@ -11,11 +11,11 @@
             padding: 16px;
             background-color: #bc8f8f;
             color: white;
-            display: flex;
+            display: flex; /* define como sera exibido o layout*/
             justify-content:center;/* alinha elementos no centro da pagina*/
             text-align: center;
             gap: 160px; /*da um espaçamento entre as palavras*/
-        }
+        }       
         #nome {
             color:darkred;
         }
@@ -31,26 +31,18 @@
         }
         .container { 
             display: grid;
-            align-items: center;
-            justify-items: center;
-            line-height: 15px;
-
+            justify-items: center; /*alinha elementos no centro da pagina*/
+            line-height: 15px; /*espaço entre linhas na vertical*/
         }
         .inicio {
             display: flex;
-            align-items: center;
+            align-items: center; /*alinha o elemento no centro vertical no display*/
         }
         .eu {
-            margin-left: 180px;
-            margin-right: 50px;
-            border-radius: 25%;
+            margin-left: 180px; /*espaço entre a margem esquerda da pagina até a imagem*/
+            margin-right: 50px; /*espaço entre o texto até a imagem*/
+            border-radius: 25%; /*borda da imagem arredondada*/
         }
         a:hover {
-            color: white;
+            color: white; /*quando passa o mouse em cima do link ele muda de cor*/
         }
-
-        
-
-    
-
-        
